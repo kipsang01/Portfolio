@@ -79,3 +79,21 @@ a{
     height: 350px;
     margin-left: 50px;
 }
+footer{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-youtube {
+    color: rgb(235, 15, 15);
+  }
