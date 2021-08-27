@@ -1,0 +1,14 @@
+*{
+    font-family: poppins;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: rgb(235, 235, 235);
+    margin: 20px;
+    padding: 20px;
+    background-image: url('background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
