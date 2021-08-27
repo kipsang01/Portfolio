@@ -12,3 +12,37 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    background-color:rgb(1, 150, 209);
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-weight:bolder;
+    font-style: italic;
+}
+nav ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav ul li a:hover{
+    font-weight: 700;
+}
+nav ul li a:active{
+    border:1px solid rgb(1, 150, 209);
+}
