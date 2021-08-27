@@ -11,11 +11,19 @@ body{
     background-image: url('/images/background1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 20px;
+    background-color: black;
+    /*position:sticky;*/
 }
 .logo{
     background-color:rgb(1, 150, 209);
@@ -47,7 +55,7 @@ nav ul li a:active{
     border:1px solid rgb(1, 150, 209);
 }
 .empty{
-    height: 100px;
+    height: 80px;
     width: 100%;
 }
 .body{
@@ -96,4 +104,20 @@ footer{
   }
   .fa-youtube {
     color: rgb(235, 15, 15);
+  }
+  #about{
+      background-repeat: repeat;
+  }
+  .about{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .experience{
+      background-color: rgb(49, 41, 41);
+      width: 50%;
+      padding: 20px;
+      margin-bottom: 10px;
+      line-height: 30px;
+      font-size: large;
   }
