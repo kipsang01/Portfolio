@@ -90,8 +90,11 @@ a{
 footer{
     display: flex;
     align-items: center;
-    height: 50px;
+    height: 100px;
     position: static;
+}
+footer p{
+    margin-left: 300px;
 }
 .fa {
     padding: 10px;
